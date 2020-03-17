@@ -40,6 +40,7 @@ while endGame != "quit":
                     valid_ans = True
             except:
                 print("Invalid entry. Use only numbers")
+        
         user_ans = ans[int(user_ans)-1]
 
         if user_ans == correct_ans:
