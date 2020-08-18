@@ -11,6 +11,7 @@ def request(url):
 
 target_url = "10.0.2.11/phpMyAdmin/"
 
+
 with open("/root/Downloads/wordlist.txt", "r") as wordlist_file:
     for line in wordlist_file:
         word = line.strip()
