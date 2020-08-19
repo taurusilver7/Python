@@ -22,7 +22,7 @@ def scan(ip):
     return list
 
 def print_result(result):
-    print(" IP\t\t\t  MAC Address\n-------------------------------------------")
+    print(" IP\t\t\t  MAC Address\n-----------------------------------------")
     for client in result:
         print(client["IP"] + "\t\t" + client["MAC"])
 
