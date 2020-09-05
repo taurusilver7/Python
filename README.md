@@ -6,8 +6,7 @@ But there also exists some gaming programs solely for fun.
 ## Softwares & Libraries.
 * Python 
 * Any code editor.
-* a few python libraries
-** BeautifulSoup
-** scapy
-** netfilterqueue
+* BeautifulSoup
+* scapy
+* netfilterqueue
 
