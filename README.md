@@ -1,6 +1,13 @@
 # Python
-<h2>My practise python programs</h2>
-All the python programs that I've ever created are placed in the repository.
-The programs include networking programs, gaming programs, hacking programs.
-Every file uploaded is followed by a number which represents its version. 
-Higher the number, latest is it's code.
+All the programs in the repository are the python programs that I've created in my learning stage.
+Many of the programs contained are connected to **cybersecurity**.
+But there also exists some gaming programs solely for fun.
+
+## Softwares & Libraries.
+* Python 
+* Any code editor.
+* a few python libraries
+** BeautifulSoup
+** scapy
+** netfilterqueue
+
