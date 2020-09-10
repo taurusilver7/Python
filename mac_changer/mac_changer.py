@@ -21,11 +21,11 @@ def change_mac(interface, new_mac):
     subprocess.call(["ifconfig", interface, "hw", "ether", new_mac])
     subprocess.call(["ifconfig", interface, "up"])
 
-def get_current_mac(iinterface):
+def get_current_mac(interface):
     result = subprocess.check_output(["ifconfig", interface])
     mac_result = re.search(r"\w\w:\w\w:\w\w:\w\w:\w\w:\w\w", str(result))
     if mac_result:
-        return mac_result.group(0)        # first result obtained from filter re.    
+        return mac_result.group(0)   # first result obtained from filter re.    
     else:
         print('[-]Could not read MAC address')
 
